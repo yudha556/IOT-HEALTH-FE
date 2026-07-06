@@ -13,13 +13,12 @@ export function IntakeStep({ onStart }) {
   const [notes, setNotes] = useState("");
 
   return (
-    <div>
+    <div className="flex flex-col gap-1 bg-white">
         <h1 className="text-2xl font-semibold mb-1">Before we scan</h1>
         <p className="text-sm text-slate-500 dark:text-slate-400 mb-6">
           Help our AI understand your current state for more accurate results.
         </p>
 
-        {/* Activity Selection */}
         <div className="mb-6">
           <Label className="text-sm font-medium text-slate-600 dark:text-slate-300 mb-3 block">
             Current activity

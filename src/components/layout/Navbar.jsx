@@ -26,12 +26,12 @@ export default function Navbar() {
           >
             Home
           </Link>
-          <Link
+          {/* <Link
             to="/scan"
             className="rounded-md px-3 py-2 hover:bg-slate-100 dark:hover:bg-slate-800"
           >
             Scan
-          </Link>
+          </Link> */}
           <Link
             to="/result"
             className="rounded-md px-3 py-2 hover:bg-slate-100 dark:hover:bg-slate-800"
