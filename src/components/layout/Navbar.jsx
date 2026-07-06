@@ -1,7 +1,14 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
 export default function Navbar() {
+  const { pathname } = useLocation();
+
+  // Hide navbar on scan page
+  if (pathname === "/scan") {
+    return null;
+  }
+
   return (
     <header className="border-b border-slate-200  px-6 py-4 shadow-sm backdrop-blur bg-white dark:border-slate-800 w-full">
       <div className="flex w-full items-center justify-between gap-4">
