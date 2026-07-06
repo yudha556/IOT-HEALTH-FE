@@ -1,78 +1,106 @@
-# File Tree: IOT-HEALTH-FE
+File Tree: IOT-HEALTH-FE
+Generated on: 7/7/2026, 6:37:41 AM
+Root path: d:\IOT-HEALTH-FE
 
-**Generated:** 7/6/2026, 5:57:01 PM
-**Root Path:** `d:\IOT-HEALTH-FE`
+────────────────────────────────────────────────────────────────────────────────
 
-```
-├── public
-│   ├── favicon.svg
-│   └── icons.svg
-├── src
-│   ├── assets
-│   │   ├── hero.png
-│   │   ├── react.svg
-│   │   └── vite.svg
-│   ├── components
-│   │   ├── ui
-│   │   │   ├── accordion.jsx
-│   │   │   ├── alert-dialog.jsx
-│   │   │   ├── alert.jsx
-│   │   │   ├── avatar.jsx
-│   │   │   ├── badge.jsx
-│   │   │   ├── button.jsx
-│   │   │   ├── calendar.jsx
-│   │   │   ├── card.jsx
-│   │   │   ├── command.jsx
-│   │   │   ├── dialog.jsx
-│   │   │   ├── drawer.jsx
-│   │   │   ├── dropdown-menu.jsx
-│   │   │   ├── hover-card.jsx
-│   │   │   ├── input-group.jsx
-│   │   │   ├── input.jsx
-│   │   │   ├── label.jsx
-│   │   │   ├── navigation-menu.jsx
-│   │   │   ├── popover.jsx
-│   │   │   ├── progress.jsx
-│   │   │   ├── radio-group.jsx
-│   │   │   ├── scroll-area.jsx
-│   │   │   ├── select.jsx
-│   │   │   ├── separator.jsx
-│   │   │   ├── sheet.jsx
-│   │   │   ├── skeleton.jsx
-│   │   │   ├── slider.jsx
-│   │   │   ├── sonner.jsx
-│   │   │   ├── switch.jsx
-│   │   │   ├── tabs.jsx
-│   │   │   ├── textarea.jsx
-│   │   │   ├── toggle-group.jsx
-│   │   │   ├── toggle.jsx
-│   │   │   └── tooltip.jsx
-│   │   └── theme-provider.jsx
-│   ├── lib
-│   │   └── utils.js
-│   ├── pages
-│   │   ├── history
-│   │   │   └── index.jsx
-│   │   ├── home
-│   │   │   └── index.jsx
-│   │   ├── result
-│   │   │   └── index.jsx
-│   │   └── scan
-│   │       └── index.jsx
-│   ├── App.css
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-├── .gitignore
-├── README.md
-├── components.json
-├── eslint.config.js
-├── index.html
-├── jsconfig.json
-├── package-lock.json
-├── package.json
-└── vite.config.js
-```
+├── 📁 public/
+│   ├── 🖼️ favicon.svg
+│   └── 🖼️ icons.svg
+├── 📁 src/
+│   ├── 📁 assets/
+│   │   ├── 🖼️ hero.png
+│   │   ├── 🖼️ react.svg
+│   │   └── 🖼️ vite.svg
+│   ├── 📁 components/
+│   │   ├── 📁 common/
+│   │   ├── 📁 layout/
+│   │   │   ├── 📄 BackgroundBlur.jsx
+│   │   │   ├── 📄 Footer.jsx
+│   │   │   └── 📄 Navbar.jsx
+│   │   ├── 📁 ui/
+│   │   │   ├── 📄 accordion.jsx
+│   │   │   ├── 📄 alert-dialog.jsx
+│   │   │   ├── 📄 alert.jsx
+│   │   │   ├── 📄 avatar.jsx
+│   │   │   ├── 📄 badge.jsx
+│   │   │   ├── 📄 button.jsx
+│   │   │   ├── 📄 calendar.jsx
+│   │   │   ├── 📄 card.jsx
+│   │   │   ├── 📄 checkbox.jsx
+│   │   │   ├── 📄 command.jsx
+│   │   │   ├── 📄 dialog.jsx
+│   │   │   ├── 📄 drawer.jsx
+│   │   │   ├── 📄 dropdown-menu.jsx
+│   │   │   ├── 📄 hover-card.jsx
+│   │   │   ├── 📄 input-group.jsx
+│   │   │   ├── 📄 input.jsx
+│   │   │   ├── 📄 label.jsx
+│   │   │   ├── 📄 navigation-menu.jsx
+│   │   │   ├── 📄 popover.jsx
+│   │   │   ├── 📄 progress.jsx
+│   │   │   ├── 📄 radio-group.jsx
+│   │   │   ├── 📄 scroll-area.jsx
+│   │   │   ├── 📄 select.jsx
+│   │   │   ├── 📄 separator.jsx
+│   │   │   ├── 📄 sheet.jsx
+│   │   │   ├── 📄 skeleton.jsx
+│   │   │   ├── 📄 slider.jsx
+│   │   │   ├── 📄 sonner.jsx
+│   │   │   ├── 📄 switch.jsx
+│   │   │   ├── 📄 tabs.jsx
+│   │   │   ├── 📄 textarea.jsx
+│   │   │   ├── 📄 toggle-group.jsx
+│   │   │   ├── 📄 toggle.jsx
+│   │   │   └── 📄 tooltip.jsx
+│   │   ├── 📄 theme-context.js
+│   │   └── 📄 theme-provider.jsx
+│   ├── 📁 context/
+│   ├── 📁 hooks/
+│   ├── 📁 layouts/
+│   │   └── 📄 RootLayout.jsx
+│   ├── 📁 lib/
+│   │   └── 📄 utils.js
+│   ├── 📁 pages/
+│   │   ├── 📁 history/
+│   │   │   └── 📄 index.jsx
+│   │   ├── 📁 home/
+│   │   │   └── 📄 index.jsx
+│   │   ├── 📁 result/
+│   │   │   ├── 📁 components/
+│   │   │   │   ├── 📁 chat/
+│   │   │   │   │   └── 📄 ChatPanel.jsx
+│   │   │   │   └── 📁 interpretation/
+│   │   │   │       ├── 📄 AIAnalysisCard.jsx
+│   │   │   │       ├── 📄 RecommendationsCard.jsx
+│   │   │   │       ├── 📄 RescanButton.jsx
+│   │   │   │       └── 📄 VitalsCard.jsx
+│   │   │   └── 📄 index.jsx
+│   │   └── 📁 scan/
+│   │       ├── 📁 components/
+│   │       │   ├── 📄 IntakeStep.jsx
+│   │       │   ├── 📄 PulseStrip.jsx
+│   │       │   ├── 📄 ScanningStep.jsx
+│   │       │   ├── 📄 SimpleScanResultsStep.jsx
+│   │       │   ├── 📄 StepIndicator.jsx
+│   │       │   └── 📄 constants.js
+│   │       └── 📄 index.jsx
+│   ├── 📁 routes/
+│   │   └── 📄 index.jsx
+│   ├── 📁 services/
+│   ├── 🎨 App.css
+│   ├── 📄 App.jsx
+│   ├── 🎨 index.css
+│   └── 📄 main.jsx
+├── ⚙️ .gitignore
+├── 📝 README.md
+├── ⚙️ components.json
+├── 📄 eslint.config.js
+├── 🌐 index.html
+├── ⚙️ jsconfig.json
+├── ⚙️ package-lock.json
+├── ⚙️ package.json
+└── 📄 vite.config.js
 
----
-*Generated by FileTree Pro Extension*
+────────────────────────────────────────────────────────────────────────────────
+Generated by FileTree Pro Extension
