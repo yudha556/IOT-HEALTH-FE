@@ -1,6 +1,6 @@
 # File Tree: IOT-HEALTH-FE
 
-**Generated:** 7/7/2026, 6:38:42 AM
+**Generated:** 7/7/2026, 11:28:50 PM
 **Root Path:** `d:\IOT-HEALTH-FE`
 
 ```
@@ -8,6 +8,11 @@
 │   ├── 🖼️ favicon.svg
 │   └── 🖼️ icons.svg
 ├── 📁 src
+│   ├── 📁 api
+│   │   ├── 📄 ai.js
+│   │   ├── 📄 axios.js
+│   │   ├── 📄 iot.js
+│   │   └── 📄 measurement.js
 │   ├── 📁 assets
 │   │   ├── 🖼️ hero.png
 │   │   ├── 🖼️ react.svg
@@ -57,6 +62,9 @@
 │   │   └── 📄 theme-provider.jsx
 │   ├── 📁 context
 │   ├── 📁 hooks
+│   │   ├── 📄 useDeviceStatus.js
+│   │   ├── 📄 useMeasurement.js
+│   │   └── 📄 useRealtimeVitals.js
 │   ├── 📁 layouts
 │   │   └── 📄 RootLayout.jsx
 │   ├── 📁 lib
@@ -88,6 +96,13 @@
 │   ├── 📁 routes
 │   │   └── 📄 index.jsx
 │   ├── 📁 services
+│   │   └── 📄 sse.js
+│   ├── 📁 stores
+│   │   └── 📄 scan.store.js
+│   ├── 📁 utils
+│   │   ├── 📄 formatter.js
+│   │   ├── 📄 risk.js
+│   │   └── 📄 time.js
 │   ├── 🎨 App.css
 │   ├── 📄 App.jsx
 │   ├── 🎨 index.css
